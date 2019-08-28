@@ -38,7 +38,7 @@
 	
 	#navBar{
 	  width: 100%;
-	  background-color: rgb(240, 240, 240, 0.5);
+	  background-color: rgb(240, 240, 240);
 	  margin: 0;
 	  padding: 0;
 	}
@@ -123,10 +123,29 @@
 	
 	#projects {
 	  padding: 10%;
+	  text-align: center;
+	}
+	 
+	#projTitle {
+	  padding: 5%;
 	}
 	 
 	#cv {
 	  padding: 10%;
+	  text-align: center;
+	}
+	
+	#resume {
+	  padding: 5%;
+	}
+	
+	#contact {
+	  padding: 10%;
+	  text-align: center;
+	}
+	
+	#contact2 {
+	  padding: 5%;
 	}
 	
 	</style>
@@ -219,7 +238,7 @@
 	  
 	  <!--Projects-->
       <div class="container-fluid" width="100%" id="projects"><br>
-	   <div class="col-sm center-block text-center">
+	   <div class="col-sm center-block text-center" id="projTitle">
 	     <h1> Projects </h1>
 	   </div>
 	   
@@ -237,11 +256,21 @@
       <div class="container-fluid" width="100%" id="cv"><br>
 	   <h1>Resumé</h1>
 	   <div class="row">
-	    <div class="col" id="resume">
-	      <p>CV link goes here or something ig</p>
+	    <div class="col-sm center-block text-center" id="resume">
+	      <p style="text-align:center">CV link goes here or something ig</p>
 	    </div>
       </div>
 	</div> <!--fluid container-->	 
+	
+	<!--Contact-->
+      <div class="container-fluid" width="100%" id="contact"><br>
+	   <h1>Contact</h1>
+	   <div class="row">
+	    <div class="col-sm center-block text-center" id="contact2">
+	      <p style="text-align:center">You can email me at janae.zhang123@gmail.com</p>
+	    </div>
+      </div>
+	</div> <!--fluid container-->	
 
   </body>
 
