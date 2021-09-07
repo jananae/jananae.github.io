@@ -79,7 +79,7 @@
 		align-content: stretch;
 	    }
 		
-		#landingPic {
+		img#landingPic {
 		display: none;
 		}
       }
@@ -115,16 +115,17 @@
 	}
 	
 	#projects {
-	  padding: 10%;
+	  padding-bottom: 10%;
 	  text-align: center;
 	}
 	 
 	#projTitle {
 	  padding: 5%;
 	}
+	
 	 
 	#cv {
-	  padding: 10%;
+	  padding-bottom: 10%;
 	  text-align: center;
 	}
 	
@@ -149,7 +150,7 @@
 	
   </head>
 
-  <body data-spy="scroll" data-target="#navBar" data-offset="1">
+  <body data-spy="scroll" data-target=".navBar" data-offset="1">
   
   
     <!--Landing-->
@@ -216,14 +217,15 @@
 	    </div>
 	    
 	    <div class="col-sm-9" style="flex-shrink:2" id="bioText">
-	      <p>Hi! I’m Janae,  a Communication and Design student at UC San Diego. 
-		  I’m passionate about making the world easier to navigate through better design. 
-		  My main focus is on UX/UI, but I’ll dabble in a little bit of every type of design when I can. 
-          <p>In the past I’ve been in charge of the media subdivision of my high school robotics team, 
+	      <p>Hi! I’m Janae, a UX/UI Designer passionate about making the world easier to navigate through better design. 
+		  I graduated from UCSD in 2021 with a Bachelor's in Communication and CogSci Design. My coursework
+		  provided me not only with an understanding of design principles, but also a strong desire 
+		  to take on the social responsibilities that come with being a designer.
+          <p>In the past I’ve worked on UX projects for a small side business focusing on handcrafted goods, as well as
+			a hair care app designed for a speculative future. 
+			I've also been in charge of the media subdivision of a high school robotics team, 
 		  coordinating our artists and animators to maintain the team’s visual brand. 
-		  Nowadays, I’m expanding on my skills in college through design-centered coursework and 
-		  supplementing that through my communication courses with a more theoretical understanding of the social responsibility that comes with design.
-          <p>Outside the classroom, I enjoy doing archery, decorating homemade desserts, and falling in love with the neighborhood cats.
+          <p>In my free time, I enjoy doing archery, making small indie games, and falling in love with the neighborhood cats.
           </p>
 	    </div>
 	    
@@ -240,8 +242,17 @@
 	   
 	   <div class="row">
 	    <div class="col-sm" id="projectCards">
-	      <p>Under construction</p>
-		  </p>
+	      <div class="row">
+			<div class="col-sm-4"><a href="">  <img src="Personal Logo.png" class="rounded" style="max-width:100%">  </a></div>
+			<div class="col-sm-4"><a href="">  <img src="Personal Logo.png" class="rounded" style="max-width:100%">  </a></div>
+			<div class="col-sm-4">
+				<div class="card" style="max-width:100%"><a href="" id="gameArtPic"><img src="portfolio icon.png" class="card-img-top" >
+					<div class="card-img-overlay">
+						<h4 class="card-title">Games and Art</h4>
+					</div>
+				</a></div>
+			</div>
+		  </div>
 	    </div>
 	   </div>
       </div>
