@@ -1,291 +1,459 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" href="favicon.ico">
+        <title>Janae Zhang - Designer</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <title>Janae Zhang - Designer</title>
-	<link rel="shortcut icon" href="Personal Logo.png">
-	
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1">
-	
-	<!-- BootStrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+        
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+        <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="plugins/ionicons/ionicons.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="plugins/animate-css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="plugins/slider/slider.css">
+        <!-- slick slider -->
+        <link rel="stylesheet" href="plugins/slick/slick.css">
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
+        <!-- hover -->
+        <link rel="stylesheet" href="plugins/hover/hover-min.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
 
-    <style>
-	html{
-	scroll-behavior:smooth;
-	}
-	
-	body {
-	  position: relative;
-	  padding: 0;
-	  margin: 0;
-	}
-	
-	
-	#navBar{
-	  width: 100%;
-	  background-color: #FFFFFF;
-	  margin: 0px;
-	  padding: 0px;
-	}
-	
-	.sticky-top {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      z-index: 1020;
-    }
-	
-	#navCollapse {
-	  color: #63b3e1;
-	}
-	
-	#navCollapse .navbar-toggler-icon {
-      background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?');
-    }
-	
-	#navLogo{
-	  color: #fdb260;
-	}
-	
-	#navLinks a {
-	  color: #63b3e1;
-	}
-	
-	#navLinks a:hover {
-	  color: #000000;
-	  background-color: rgb(253, 178, 96, 0.5);
-	}
-	
-	#navLinks a:active {
-	  color: #000000;
-	  background-color: rgb(253, 178, 96, 0.5);
-	}
-	
-	a {
-        color: #85c3ea;
-    }
+<!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+<section class="top-bar animated-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/Personal Logo 120x120.png" alt="logo" style="max-width: 40%">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    a:hover {
-        color: #63b3e1;
-    }
-	
-	.flex-container {
-	  display: flex;
-	  flex-wrap: wrap;
-	  align-content: center;
-	  
-	  @media screen {
-        #bio {
-        flex-direction: column;
-	    align-items: center;
-		align-content: stretch;
-	    }
-		
-		img#landingPic {
-		display: none;
-		}
-      }
-	  
-	  @media screen and (min-width: 769px) {
-        #bio {
-		flex-direction: row;
-        align-items: center;
-		align-content: stretch;
-		}
-      }
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#works">Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
 
-	
-   	  
-	}
-	
-	
-	#bio {
-	  padding: 10%;
-	}
+<!--
+==================================================
+Slider Section Start
+================================================== -->
+<section id="hero-area" >
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="block wow fadeInUp" data-wow-delay=".3s">
+                
+                <!-- Slider -->
+                <section class="cd-intro">
+                    <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
+                    <span>HI, MY NAME IS JANAE &amp; I AM A</span><br>
+                    <span class="cd-words-wrapper">
+                        <b class="is-visible">DESIGNER</b>
+                        <b>CONTENT CREATOR</b>
+                        <b>USER ADVOCATE</b>
+                    </span>
+                    </h1>
+                    </section> <!-- cd-intro -->
+                    <!-- /.slider -->
+                    <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
+                        I'm passionate about making the world easier to navigate through better design, <br>
+                        bringing a strong affinity for social responsibility to my work.
+                    </h2>
+                    <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green hvr-bounce-to-right" data-wow-delay=".9s" href="#works">
+                        See What I've Made</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#main-slider-->
 
-  
-	
-	#selfie {
-	  max-height: 100%;
-	  padding-top: 5%;
-	}
-	
-	#bioText {
-	  padding-top: 5%;
-	}
-	
-	#projects {
-	  padding-bottom: 5%;
-	  text-align: center;
-	}
-	 
-	#projTitle {
-	  padding: 5%;
-	}
-	
-	 
-	#cv {
-	  padding-bottom: 5%;
-	  text-align: center;
-	}
-	
-	#cvTitle {
-	  padding: 5%;
-	}
-	
-	#contact {
-	  padding: 5%;
-	  text-align: center;
-	}
-	
-	#contact2 {
-	  padding: 5%;
-	}
-	
-	</style>
-	
-	<!-- Orange: #fdb260 or (253, 178, 96) -->
-    <!-- Light Blue: #85c3ea or -->
-    <!-- Dark Blue: #63b3e1 or -->
-	
-  </head>
+<!--
+==================================================
+About Section Start
+================================================== -->
+<section id="about" class="anchor">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-7">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h2>
+                    ABOUT ME
+                    </h2>
+                    <p>
+                        Hi there! I’m a UI/UX designer based in California. I graduated from UCSD in 2021 with a B.A. in Communication and B.S. in Cognitive Science Design.
+                        My education provided me not only with a strong understanding of design principles, but also a desire to take on the social responsibilities that come with being a designer. 
+                    </p>
+                    <p>
+                        In the past I’ve worked on UX projects for a small side business making handcrafted goods, as well as a hair care app designed for a speculative future. 
+                        I've also done work in brand design, graphic design, and 3D animation for various non-profits and student organizations.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="col-md-5 col-sm-5">
+                <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <img src="images/about/JanaeZhangEdited.jpg" alt="Image of Janae Zhang" style="text-align:center" class="rounded-circle">
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!-- /#about -->
 
-  <body data-spy="scroll" data-target=".navBar" data-offset="1">
-  
-  
-    <!--Landing-->
-    <div class="container-fluid" width="100%" id="home">
-	<div class="row">
-	  <img class="image-fluid" src="Portfolio-Layout.png" style="max-width:100%" alt="Landing Page" id="landingPic">
-	</div>
-	
-	
-	<!-- NavBar -->
-    <nav class="navbar navbar-expand-sm sticky-top align-self-start" id="navBar">
-	  <div class="container-fluid">
-		<a class="navbar-brand" href="#" id="navLogo">
-			<img class=.img-responsive src="Personal Logo.png" alt="Logo" style="width:40px;">  
-			</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" id="navCollapse">
-         <span class="navbar-toggler-icon"></span>
-        </button>
 
-	  <div class="collapse navbar-collapse justify-content-end" id="navLinks">
-        <ul class="nav navbar-nav navbar-right ml-auto" id="navLinks2">
-		  <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#bio">Bio</a>
-          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="#projects">Projects</a>
-          </li>
-		  <!--
-	      <li class="nav-item">
-           <a class="nav-link" href="#cv">CV</a>
-          </li>
-		  -->
-		  <li class="nav-item">
-           <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-	  </div>
-	  
-	  </div>
-     </nav> 
+<!--
+==================================================
+Portfolio Section Start
+================================================== -->
+<section id="works" class="works anchor">
+    <div class="container">
+        <div class="section-heading">
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Works</h1>
+            <p class="wow fadeInDown" data-wow-delay=".5s">
+                From UX/UI to graphics to games, I've dabbled in many different types of design. 
+                You can find some of my projects here.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/ChelsealealeaMockup.png" class="img-fluid" alt="Chelsealealea Site Mockups" >
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" target="_blank"
+                                href="https://www.figma.com/proto/mR3A8a3sHzjn3UoMIbHnKL/COGS-187B-Final-Prototype?node-id=467%3A0&scaling=scale-down">
+                                Demo</a>
+                                <a href="Chelsealealea.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                    <h4>
+                    <a href="Chelsealealea.html">
+                        Chelsealealea
+                    </a>
+                    </h4>
+                    <p>
+                        A portfolio site design for a small handmade craft business.
+                    </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/JSMDPlaceholder.png" class="img-fluid" alt="JSMD Logo" >
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="images/portfolio/JSMDPlaceholder.png">Demo</a>
+                                <a href="Tressty.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                    <h4>
+                    <a href="#">
+                        Tressty
+                    </a>
+                    </h4>
+                    <p>
+                        A haircare app design based on futuristic science.
+                    </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/SGAFlyerMockup.png" class="img-fluid" alt="Archery workshop flyer leaning against a wall" >
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="images/portfolio/SGAFlyerMockup.png">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                    <h4>
+                    <a href="#">
+                        Sun God Archery Flyers
+                    </a>
+                    </h4>
+                    <p>
+                        Flyer design for a college archery club's workshops.
+                    </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <!--
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-4.jpg" class="img-fluid" alt="" >
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
+                                <a href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                    <h4>
+                    <a href="#">
+                        Make Up elements
+                    </a>
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor.
+                    </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-5.jpg" class="img-fluid" alt="" >
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
+                                <a href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                    <h4>
+                    <a href="#">
+                        Shoping Bag Concept
+                    </a>
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor.
+                    </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-6.jpg" class="img-fluid" alt="" >
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
+                                <a href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                    <h4>
+                    <a href="#">
+                        Caramel Bottle
+                    </a>
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor.
+                    </p>
+                    </figcaption>
+                </figure>
+            </div>
+            -->
+        </div>
+    </div>
+</section> <!-- #works -->
+<!--
+==================================================
+Skills Section Start
+================================================== -->
+<section id="feature" class="anchor">
+    <div class="container">
+        <div class="section-heading">
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Skills and Languages</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-4">
+                <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-iphone"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">UX/UI Design</h4>
+                        <p>Understanding of UX principles and aesthetic needs. Experience in both Figma and Adobe XD.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-paintbucket"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Graphic Design</h4>
+                        <p>Experience making print and digital graphics in Photoshop, Canva, InDesign, and other art software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-ios-lightbulb-outline"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Brand Design</h4>
+                        <p>Experience developing an organization's color palette, visual style, and tone of voice.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-videocamera"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Videography</h4>
+                        <p>Experience in filming and editing videos using DSLR cameras and Adobe Premiere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-code"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Coding</h4>
+                        <p>Basic knowledge of Java, Python, and HTML/CSS.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-chatbubble"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Languages</h4>
+                        <p>Primarily English, with working ability in French and Mandarin Chinese.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!-- /#feature -->
 
-	
-	
-	
-	<div class="container-fluid"><br>
-	
-      <!--Bio--><br>
-      <div class="container-fluid" width="100%" id="bio">
-	   <div class="row">
-	    <div class="col-sm center-block text-center">
-	     <h1> About </h1>
-		</div>
-	   </div>
-	   
-	   <div class="flex-container">
-	   
-	    <div class="col-sm-3" id="selfie">
-		  <img class="rounded-circle" src="Selfie.jpg" alt="Photo of Janae" style="max-width:100%">
-	    </div>
-	    
-	    <div class="col-sm-9" style="flex-shrink:2" id="bioText">
-	      <p>Hi! I’m Janae, a UX/UI designer passionate about making the world easier to navigate through better design. 
-		  <p>I graduated from UCSD in 2021 with a Bachelor's in Communication and CogSci Design. My coursework
-		  provided me not only with an understanding of design principles, but also a strong desire 
-		  to take on the social responsibilities that come with being a designer.
-          <p>In the past I’ve worked on UX projects for a small side business focusing on handcrafted goods, as well as
-			a hair care app designed for a speculative future. 
-			I've also been in charge of the media subdivision of a high school robotics team, 
-		  coordinating our artists and animators to maintain the team’s visual brand. 
-          <p>In my free time, I enjoy doing archery, making small indie games, and falling in love with the neighborhood cats.
-          </p>
-	    </div>
-	    
-	   </div>
-      </div> 
-	  <!--End Bio-->
-	  
-	  
-	  <!--Projects-->
-      <div class="container-fluid" width="100%" id="projects"><br>
-	   <div class="col-sm center-block text-center" id="projTitle">
-	     <h1> Projects </h1>
-	   </div>
-	   
-	   <div class="row">
-	    <div class="col-sm" id="projectCards">
-	      <div class="row">
-			<div class="col-sm-1"></div>
-			<div class="col-sm-4"><a href="chelsealealea.html">  <img src="Chelsealealea.PNG" class="rounded" style="max-width:100%">  </a></div>
-			<div class="col-sm-2"><p> </p></div>
-			<div class="col-sm-4"><a href="tressty.html">  <img src="JSMDPlaceholder.png" class="rounded" style="max-width:100%">  </a></div>
-			<div class="col-sm-1"></div>
-					</div>
-				</a></div>
-			</div>
-		  </div>
-	    </div>
-	   </div>
-      </div>
-	  
-	  
-	  
-	  <!--CV-->
-	  <!--
-      <div class="container-fluid" width="100%" id="cv"><br>
-	  <div class="col-sm center-block text-center" id="cvTitle">
-	     <h1> Resume </h1>
-	   </div>
-	   <div class="row">
-	    <div class="col-sm center-block text-center" id="resume">
-	      <p style="text-align:center">Coming soon!</p>
-	    </div>
-      </div>
-	</div>
-	-->	 
-	
-	<!--Contact-->
-      <div class="container-fluid" width="100%" id="contact"><br>
-	   <h1>Contact</h1>
-	   <div class="row">
-	    <div class="col-sm center-block text-center" id="contact2">
-	      <p style="text-align:center">Email: janae.zhang413@gmail.com</p>
-		  <p style="text-align:center"><a href="https://www.linkedin.com/in/janaezhang413/">LinkedIn</a></p>
-	    </div>
-      </div>
-	</div> <!--fluid container-->	
 
-  </body>
+            <!--
+            ==================================================
+            Call To Action Section Start
+            ================================================== -->
+            <section id="contact" class="anchor">
+            <section id="call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block">
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Get In Touch</h1>
+                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
+                                    Have a project that needs a designer?<br>
+                                    Email me at <b>janae.zhang413@gmail.com</b> or contact me via LinkedIn.</p>
+                                <a target="_blank" href="https://www.linkedin.com/in/janaezhang413/" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </section>
 
+            <!--
+            ==================================================
+            Footer Section Start
+            ================================================== -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="row content-justify-between">
+                        <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                            <p class="copyright">Design Copyright (c) 2021 <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>. 
+                            Home background image created by denamorado at <a href="https://www.freepik.com/photos/background">Freepik</a>.
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-12">
+                        </div>
+                    </div>
+                </div>
+            </footer> <!-- /#footer -->
+
+	<!-- Template Javascript Files
+	================================================== -->
+	<!-- jquery -->
+	<script src="plugins/jQurey/jquery.min.js"></script>
+	<!-- Form Validation -->
+    <script src="plugins/form-validation/jquery.form.js"></script> 
+    <script src="plugins/form-validation/jquery.validate.min.js"></script>
+	<!-- slick slider -->
+	<script src="plugins/slick/slick.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<!-- wow js -->
+	<script src="plugins/wow-js/wow.min.js"></script>
+	<!-- slider js -->
+	<script src="plugins/slider/slider.js"></script>
+	<!-- Fancybox -->
+	<script src="plugins/facncybox/jquery.fancybox.js"></script>
+	<!-- template main js -->
+	<script src="js/main.js"></script>
+ 	</body>
 </html>
