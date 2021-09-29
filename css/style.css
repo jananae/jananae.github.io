@@ -33,12 +33,12 @@ ul li {
 }
 
 a {
-  color: #63b3e1;
+  color: #2A97D6;
 }
 
 a:hover {
   text-decoration: none;
-  color:#fdb260;
+  color: #258AC4;
 }
 
 .section-heading {
@@ -227,7 +227,7 @@ a:hover {
 }
 
 .navbar .nav-item .nav-link:hover {
-  color: #85c3ea !important;
+  color: #63b3e1 !important;
 }
 
 .navbar .nav-item:last-child .nav-link {
@@ -277,7 +277,7 @@ a:hover {
 }
 
 .dropdown-item:hover {
-  color: #02bdd5 !important;
+  color: #63b3e1 !important;
   background: transparent;
 }
 
@@ -329,7 +329,7 @@ a:hover {
   margin-bottom: 38px;
   line-height: 27px;
   text-transform: uppercase;
-  color: #666;
+  color: #555;
   font-family: 'Roboto', sans-serif;
   margin-top: 25px;
 }
@@ -349,28 +349,28 @@ a:hover {
 }
 
 #call-to-action {
-  background: #63b3e1;
+  background: #2A97D6;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
   text-align: center;
   position: relative;
-  color: #fff;
+  color: #FFF;
 }
 
 #call-to-action .block {
   position: relative;
   z-index: 9;
-  color: #fff;
+  color: #FFF;
 }
 
 #call-to-action .block h2 {
-  margin-bottom: 15px;
-  color: #fff;
+  margin-bottom: 16px;
+  color: #FFF;
 }
 
 #call-to-action .block p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
@@ -379,10 +379,10 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: 2px solid #fff;
-  color: #63b3e1;
+  color: #2A97D6;
   padding: 15px 34px;
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 0;
@@ -395,7 +395,7 @@ a:hover {
 
 #call-to-action .block .btn-contact:hover {
   color: #fff;
-  background: #63b3e1;
+  background: #2A97D6;
 }
 
 #about {
@@ -407,14 +407,14 @@ a:hover {
 }
 
 #about .block h2 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 300;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
 
 #about .block p {
-  color: #727272;
+  color: #383838;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 35px;
@@ -467,7 +467,7 @@ a:hover {
 .works .block h4 {
   padding: 20px 15px;
   margin-top: 0;
-  color: #666;
+  color: #555;
 }
 
 .works .block .img-overly {
@@ -631,13 +631,13 @@ figure figcaption p {
 #feature p {
   line-height: 25px;
   font-size: 14px;
-  color: #777777;
+  color: #555;
 }
 
 #feature .icon {
   text-decoration: none;
   color: #fff;
-  background-color: #85c3ea;
+  background-color: #63b3e1;
   height: 100px;
   text-align: center;
   width: 100px;
@@ -648,7 +648,7 @@ figure figcaption p {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  text-shadow: #63b3e1 1px 1px, #63b3e1 2px 2px, #63b3e1 3px 3px, #63b3e1 4px 4px, #63b3e1 5px 5px, #63b3e1 6px 6px, #63b3e1 7px 7px, #63b3e1 8px 8px, #63b3e1 9px 9px, #63b3e1 10px 10px, #63b3e1 11px 11px, #63b3e1 12px 12px, #63b3e1 13px 13px, #63b3e1 14px 14px, #63b3e1 15px 15px, #63b3e1 16px 16px, #63b3e1 17px 17px, #63b3e1 18px 18px, #63b3e1 19px 19px, #63b3e1 20px 20px, #63b3e1 21px 21px, #63b3e1 22px 22px, #63b3e1 23px 23px, #63b3e1 24px 24px, #63b3e1 25px 25px, #63b3e1 26px 26px, #63b3e1 27px 27px, #63b3e1 28px 28px, #63b3e1 29px 29px, #63b3e1 30px 30px, #63b3e1 31px 31px, #63b3e1 32px 32px, #63b3e1 33px 33px, #63b3e1 34px 34px, #63b3e1 35px 35px, #63b3e1 36px 36px, #63b3e1 37px 37px, #63b3e1 38px 38px, #63b3e1 39px 39px, #63b3e1 40px 40px, #63b3e1 41px 41px, #63b3e1 42px 42px, #63b3e1 43px 43px, #63b3e1 44px 44px, #63b3e1 45px 45px, #63b3e1 46px 46px, #63b3e1 47px 47px, #63b3e1 48px 48px, #63b3e1 49px 49px, #63b3e1 50px 50px, #63b3e1 51px 51px, #63b3e1 52px 52px, #63b3e1 53px 53px, #63b3e1 54px 54px, #63b3e1 55px 55px, #63b3e1 56px 56px, #63b3e1 57px 57px, #63b3e1 58px 58px, #63b3e1 59px 59px, #63b3e1 60px 60px, #63b3e1 61px 61px, #63b3e1 62px 62px, #63b3e1 63px 63px, #63b3e1 64px 64px, #63b3e1 65px 65px, #63b3e1 66px 66px, #63b3e1 67px 67px, #63b3e1 68px 68px, #63b3e1 69px 69px, #63b3e1 70px 70px, #63b3e1 71px 71px, #63b3e1 72px 72px, #63b3e1 73px 73px, #63b3e1 74px 74px, #63b3e1 75px 75px, #63b3e1 76px 76px, #63b3e1 77px 77px, #63b3e1 78px 78px, #63b3e1 79px 79px, #63b3e1 80px 80px, #63b3e1 81px 81px, #63b3e1 82px 82px, #63b3e1 83px 83px, #63b3e1 84px 84px, #63b3e1 85px 85px, #63b3e1 86px 86px, #63b3e1 87px 87px, #63b3e1 88px 88px, #63b3e1 89px 89px, #63b3e1 90px 90px, #63b3e1 91px 91px, #63b3e1 92px 92px, #63b3e1 93px 93px, #63b3e1 94px 94px, #63b3e1 95px 95px, #63b3e1 96px 96px, #63b3e1 97px 97px, #63b3e1 98px 98px, #63b3e1 99px 99px, #63b3e1 100px 100px;
+  text-shadow: #2A97D6 1px 1px, #2A97D6 2px 2px, #2A97D6 3px 3px, #2A97D6 4px 4px, #2A97D6 5px 5px, #2A97D6 6px 6px, #2A97D6 7px 7px, #2A97D6 8px 8px, #2A97D6 9px 9px, #2A97D6 10px 10px, #2A97D6 11px 11px, #2A97D6 12px 12px, #2A97D6 13px 13px, #2A97D6 14px 14px, #2A97D6 15px 15px, #2A97D6 16px 16px, #2A97D6 17px 17px, #2A97D6 18px 18px, #2A97D6 19px 19px, #2A97D6 20px 20px, #2A97D6 21px 21px, #2A97D6 22px 22px, #2A97D6 23px 23px, #2A97D6 24px 24px, #2A97D6 25px 25px, #2A97D6 26px 26px, #2A97D6 27px 27px, #2A97D6 28px 28px, #2A97D6 29px 29px, #2A97D6 30px 30px, #2A97D6 31px 31px, #2A97D6 32px 32px, #2A97D6 33px 33px, #2A97D6 34px 34px, #2A97D6 35px 35px, #2A97D6 36px 36px, #2A97D6 37px 37px, #2A97D6 38px 38px, #2A97D6 39px 39px, #2A97D6 40px 40px, #2A97D6 41px 41px, #2A97D6 42px 42px, #2A97D6 43px 43px, #2A97D6 44px 44px, #2A97D6 45px 45px, #2A97D6 46px 46px, #2A97D6 47px 47px, #2A97D6 48px 48px, #2A97D6 49px 49px, #2A97D6 50px 50px, #2A97D6 51px 51px, #2A97D6 52px 52px, #2A97D6 53px 53px, #2A97D6 54px 54px, #2A97D6 55px 55px, #2A97D6 56px 56px, #2A97D6 57px 57px, #2A97D6 58px 58px, #2A97D6 59px 59px, #2A97D6 60px 60px, #2A97D6 61px 61px, #2A97D6 62px 62px, #2A97D6 63px 63px, #2A97D6 64px 64px, #2A97D6 65px 65px, #2A97D6 66px 66px, #2A97D6 67px 67px, #2A97D6 68px 68px, #2A97D6 69px 69px, #2A97D6 70px 70px, #2A97D6 71px 71px, #2A97D6 72px 72px, #2A97D6 73px 73px, #2A97D6 74px 74px, #2A97D6 75px 75px, #2A97D6 76px 76px, #2A97D6 77px 77px, #2A97D6 78px 78px, #2A97D6 79px 79px, #2A97D6 80px 80px, #2A97D6 81px 81px, #2A97D6 82px 82px, #2A97D6 83px 83px, #2A97D6 84px 84px, #2A97D6 85px 85px, #2A97D6 86px 86px, #2A97D6 87px 87px, #2A97D6 88px 88px, #2A97D6 89px 89px, #2A97D6 90px 90px, #2A97D6 91px 91px, #2A97D6 92px 92px, #2A97D6 93px 93px, #2A97D6 94px 94px, #2A97D6 95px 95px, #2A97D6 96px 96px, #2A97D6 97px 97px, #2A97D6 98px 98px, #2A97D6 99px 99px, #2A97D6 100px 100px;
 }
 
 .wrapper_404 h1 {
@@ -1278,7 +1278,7 @@ article {
 }
 
 #footer .copyright a {
-  color: #63b3e1;
+  color: #2A97D6;
 }
 
 #footer .social {
