@@ -372,6 +372,7 @@ a:hover {
 #call-to-action .block p {
   font-size: 17px;
   font-weight: 300;
+  line-height: 28px;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
 }
@@ -410,6 +411,7 @@ a:hover {
   font-size: 28px;
   font-weight: 300;
   margin-bottom: 30px;
+  text-align: center;
   text-transform: uppercase;
 }
 
