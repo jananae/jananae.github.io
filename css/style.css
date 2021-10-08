@@ -259,6 +259,12 @@ a:hover {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+
+  .navbar .nav-item .nav-link {
+    font-size: 15px;
+    padding: 5px;
+  }
+
 }
 
 .dropdown-item {
